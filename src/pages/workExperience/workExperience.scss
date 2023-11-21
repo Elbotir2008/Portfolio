@@ -1,0 +1,71 @@
+.workExperience-section {
+  position: relative;
+  widows: 100%;
+  padding: 5rem;
+  margin-top: 10rem;
+  z-index: 1;
+  h1 {
+    margin-left: 17rem;
+    font-size: 4rem;
+    color: #fff;
+    font-weight: 500;
+  }
+  .work-cards {
+    grid-template-columns: auto auto;
+    gap: 5rem;
+    padding-left: 15rem;
+    margin-top: 7rem;
+    .work-card {
+      width: 45rem;
+      border-radius: 2rem;
+      padding: 1rem 3rem;
+      background: linear-gradient(
+        96deg,
+        #130428 0.58%,
+        #251043 16.32%,
+        #38126d 29.33%,
+        #261045 45.66%,
+        #190634 54.44%
+      );
+
+      box-shadow: 4px 7px 26px 0px rgba(0, 0, 0, 0.12);
+      gap: 3rem;
+      .card-text {
+        * {
+          margin-top: 1rem;
+        }
+        h2 {
+          font-size: 2rem;
+          color: #fff;
+        }
+        p {
+          font-size: 1.1rem;
+          color: #fff;
+          margin-bottom: 1rem;
+        }
+        .wp {
+          width: 24rem;
+        }
+        button {
+          border-radius: 1rem;
+          padding: 1.3rem 3rem;
+          border: 1px solid #693b93;
+          background-color: #2c1250;
+          color: #fff;
+          margin-bottom: 2rem;
+          transition: 0.1s linear;
+          &:hover {
+            background-color: #693b93;
+            transition: 0.1s linear;
+          }
+        }
+      }
+    }
+  }
+  .backGra {
+    position: absolute;
+    left: 32%;
+    top: 12%;
+    z-index: -1;
+  }
+}
