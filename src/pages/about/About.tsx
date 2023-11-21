@@ -22,9 +22,9 @@ const About = () => {
           </div>
         </div>
         <div className="about-bottom">
-          <h1>I'm a Software Engineer.| </h1>
+          <h1>I'm a Frontend Developer.| </h1>
           <h5>
-            Currently, I'm a Software Engineer at{" "}
+            Currently, I'm a Frontend Developer at{" "}
             <b>
               <img src="./facebook.svg" alt="Eror" /> Facebook
             </b>
