@@ -14,8 +14,7 @@ const About = () => {
           <div className="blog-text">
             <h4>A Programmer who</h4>
             <h1>
-              Judges a book by its <img src="Ellipse 5.svg" alt="Eror" />{" "}
-              <span>cover</span>
+              Judges a book by its <span>cover</span>
               <b>...</b>
             </h1>
             <p>Because if the cover does not impress you what else can?</p>
